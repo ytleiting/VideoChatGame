@@ -8,10 +8,7 @@
 並且在角色上方會顯示該玩家的鏡頭畫面  
 
 # 展示影片
-<video width="800" controls>
-  <source src="video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![gif](demo.gif)
 
 # 製作方式
 
