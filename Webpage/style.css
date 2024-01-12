@@ -1,0 +1,44 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+
+canvas {
+    width: 100vw !important;
+    height: 100vh !important;
+    z-index: -1;
+}
+
+.videoContainer {
+    /* box-sizing: border-box;
+    width: auto;
+    height: auto; */
+
+    position: absolute;
+    transform: translateX(-50%);
+
+    opacity: 0;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.remoteVideo {
+    z-index: 1;
+    width: auto;
+}
+
+.videoBorder {
+    z-index: 2;
+
+    position: absolute;
+    top: -21%;
+    left: -5%;
+    height: 140%;
+    width: 110%;
+}
